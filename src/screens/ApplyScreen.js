@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Form, Button, FloatingLabel } from "react-bootstrap";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
 import { submitted } from "../actions/UserAction";
 
